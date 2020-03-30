@@ -1,0 +1,10 @@
+export const FETCH_TABLES = 'FETCH_TABLES';
+export const FETCH_WAITERS = 'FETCH_WAITERS';
+export const FETCH_MENU = 'FETCH_MENU';
+export const GENERATE_BILL = 'GENERATE_BILL';
+export const ADD_ITEM = 'ADD_ITEM';
+export const SELECT_TABLE = 'SELECT_TABLE';
+export const SELECT_WAITER = 'SELECT_WAITER';
+export const ADD_USN = 'ADD_USN';
+export const ADD_USER_MOBILE = 'ADD_USER_MOBILE';
+export const ADD_PAYMENT_MODE = 'ADD_PAYMENT_MODE';

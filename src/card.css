@@ -1,0 +1,104 @@
+.c_dotted_card {
+    width: 230px;
+    height: 230px;
+    border: 4px dotted #DFDFDF;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    cursor:pointer;
+}
+
+.c_dotted_card:active {
+    border: 1px solid #DFDFDF;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+.card_red {
+    background-color: red;
+}
+
+.card_green {
+    background-color: green;
+}
+
+.card_normal {
+    box-shadow: none;
+}
+
+.card_selected {
+    box-shadow: 0 0 10px 3px grey;
+}
+
+.c_card {
+    width: 224px;
+    height: 224px;
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
+    /* background-color: white; */
+    /* color: #323232;  */
+    margin-right: 20px;
+    /* padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: .5rem; */
+    margin: 1rem;
+    display: inline-block;
+    font-weight:bold;
+}
+
+.r_tables {
+    color: white;
+    /* background-image: url(./img/table.jpg); */
+    background-size: cover;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* .c_card_content {
+    display: flex;
+} */
+
+/* .name_ribbon {
+  text-shadow: 2px 2px 4px 2px #a52e2e;
+} */
+
+.div_circle{
+    border-radius: 50%;
+}
+
+.c_card{
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dropdown-toggle{
+    display: none;
+}
+
+.dropdown-toggle::before {
+    display: none !important;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.dropleft::before {
+    display: none !important;
+}
+.dropleft::after {
+    display: none !important;
+}
+
+/* #dropdown-item-button{
+    opacity: 0;
+} */
+/* 
+select {
+    display:none
+} */
+
+.todoText {
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
